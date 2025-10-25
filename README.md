@@ -2,9 +2,9 @@
 
 
 
- !!! Personal Fork Conty.sh !!! contains packages :  lutris python-protobuf steam steam-native-runtime bottles wine-staging winetricks wine-nine wineasio
+ !!! Personal minimal Fork Conty.sh !!! contains packages :  lutris python-protobuf steam steam-native-runtime bottles wine-staging winetricks wine-nine wineasio gamescope mangohud vulkan
  
- !!! Fork !!! For CPU with support x86-64-v4 -O3 and LTO optimization (command for check  ' /lib/ld-linux-x86-64.so.2 --help ' , Uses core-x86-64-v4 extra-x86-64-v4 multilib-x86-64-v4 from https://github.com/an0nfunc/ALHP
+ !!! Fork For CPU with support x86-64-v4 -O3 and LTO optimization (command for check  ' /lib/ld-linux-x86-64.so.2 --help ' , Uses core-x86-64-v4 extra-x86-64-v4 multilib-x86-64-v4 from https://github.com/an0nfunc/ALHP
  
 
  
