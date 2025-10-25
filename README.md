@@ -1,5 +1,13 @@
 # Conty
 
+
+
+ !!! Personal Fork Conty.sh !!! contains packages :  lutris python-protobuf steam steam-native-runtime bottles wine-staging winetricks wine-nine wineasio
+ 
+ !!! Fork !!! For CPU with support x86-64-v4 -O3 and LTO optimization (command for check  ' /lib/ld-linux-x86-64.so.2 --help ' , Uses core-x86-64-v4 extra-x86-64-v4 multilib-x86-64-v4 from https://github.com/an0nfunc/ALHP
+ 
+
+ 
 [![Conty CI](https://github.com/Kron4ek/Conty/actions/workflows/conty.yml/badge.svg)](https://github.com/Kron4ek/Conty/actions/workflows/conty.yml) [![Utils CI](https://github.com/Kron4ek/Conty/actions/workflows/utils.yml/badge.svg)](https://github.com/Kron4ek/Conty/actions/workflows/utils.yml)
 
 This is an easy to use compressed unprivileged Linux container packed into a single executable that works on most Linux distros. You can use it to run any applications, including games ([Vulkan](https://en.wikipedia.org/wiki/Vulkan) and [OpenGL](https://en.wikipedia.org/wiki/OpenGL)).
