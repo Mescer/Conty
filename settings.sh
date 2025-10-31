@@ -76,6 +76,8 @@ LOCALES=(
 # Content of pacman mirrorrlist file before reflector is installed and used to fetch new one
 # shellcheck disable=2016
 MIRRORLIST='
+# Server = https://mirror.cspacehostings.com/archlinux/$repo/os/$arch
+# Server = https://berlin.mirror.pkgbuild.com/$repo/os/$arch
 Server = https://de.arch.mirror.kescher.at/$repo/os/$arch
 Server = https://europe.mirror.pkgbuild.com/$repo/os/$arch
 Server = https://at.arch.mirror.kescher.at/$repo/os/$arch
