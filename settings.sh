@@ -115,16 +115,13 @@ SQUASHFS_COMPRESSOR_ARGUMENTS=(-b 1M -comp "${SQUASHFS_COMPRESSOR}" -Xcompressio
 # List of links to arch bootstrap archive
 # Conty will try to download each one of them sequentially
 BOOTSTRAP_DOWNLOAD_URLS=(
-Server = https://de.arch.mirror.kescher.at/$repo/os/$arch
-Server = https://europe.mirror.pkgbuild.com/$repo/os/$arch
-Server = https://at.arch.mirror.kescher.at/$repo/os/$arch
-Server = https://arch.phinau.de/$repo/os/$arch
-Server = https://mirror.trap.moe/archlinux/$repo/os/$arch
-Server = https://mirror.telepoint.bg/archlinux/$repo/os/$arch
-Server = https://mirror.pseudoform.org/$repo/os/$arch
-Server = https://archlinux.thaller.ws/$repo/os/$arch
-	
-)
+	'https://arch.hu.fo/archlinux/iso/latest/archlinux-bootstrap-x86_64.tar.zst'
+	'https://mirror.cyberbits.eu/archlinux/iso/latest/archlinux-bootstrap-x86_64.tar.zst'
+	'https://mirror.osbeck.com/archlinux/iso/latest/archlinux-bootstrap-x86_64.tar.zst'
+	'https://mirror.lcarilla.de/archlinux/iso/latest/archlinux-bootstrap-x86_64.tar.zst'
+	'https://mirror.moson.org/archlinux/iso/latest/archlinux-bootstrap-x86_64.tar.zst'
+	'https://mirror.f4st.host/archlinux/iso/latest/archlinux-bootstrap-x86_64.tar.zst'
+	)
 
 # sha256sums.txt file to verify downloaded bootstrap archive with
 BOOTSTRAP_SHA256SUM_FILE_URL='https://archlinux.org/iso/latest/sha256sums.txt'
